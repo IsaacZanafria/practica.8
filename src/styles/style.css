@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section{
+width: 100wh;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contenedor{
+    border: solid black;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50wh;
+    height: 50vh;
+    box-shadow: 0 10px 20px black;
+    border-radius: 8px;
+    background-color: rgba(49, 0, 0, 0.177);
+}
+
+.contenedor .barra{
+    height: 10%;
+    width: 90%;
+    border-radius: 8px;
+    border-width: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-inline: 10px;
+}
+
+.contenedor .botones{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.botones button{
+    width: 20%;
+    height: 15%;
+    border-radius: 8px;
+    border-width: 1px;
+    box-shadow: -1px 1px 15px -5px black;
+    cursor: pointer;
+    font-size: 15px;
+}
+.botones button:hover{
+    background-color: rgb(178, 174, 174);
+}
+
+.botones .especial{
+    background-color: rgb(222, 222, 50);
+}
+.botones .especial:hover{
+    background-color: rgb(119, 119, 1);
+}
+
+.botones .borrar{
+    background-color: rgb(69, 69, 69);
+    color: white;
+}
+.botones .borrar:hover{
+    background-color: rgb(35, 35, 35);
+}
+
+.botones .res{
+    background-color: orange;
+}
+.botones .res:hover{
+    background-color: rgb(167, 110, 4);
+}
